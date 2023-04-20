@@ -5,6 +5,7 @@ export default defineConfig({
     lang: 'zh-CN',
     // 主标题
     title: '前端之旅',
+    base: '/blog',
     themeConfig:{
         logo: '/HZw.PNG',
         nav: navbar,
@@ -15,7 +16,7 @@ export default defineConfig({
         },
         socialLinks: [
             // GitHub
-            { icon: 'github', link: 'https://github.com/HzWrSy' },
+            { icon: 'github', link: 'https://github.com/GoodKun' },
             // B站
             {
                 icon: {
